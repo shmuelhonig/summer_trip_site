@@ -1,0 +1,104 @@
+*{box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  min-width: 600px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: verdana;
+  background-image: url("tripimages/chicago_and_river_edited.jpg");
+  background-size: contain;
+  height: 273px; /* for this image I downloaded a copy and edited it using an image editor. I then adjusted the header height to correspond with the image size */
+}
+
+footer {
+  font-family: georgia;
+  text-align: center;
+  background-color: #e0e0e0;
+}
+
+main {
+  background-color: #e0e0e0;
+}
+
+h1 {
+  margin: 0px;
+  padding-bottom: 13px;
+  font-size: 2.25em;
+}
+
+ol {
+  padding-right: 40px;
+}
+
+ul {
+  list-style: disc;
+}
+
+figure {
+  margin: 0px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+figcaption {
+  font-size: 0.75em;
+  width: 300px;
+}
+
+.longlist {
+  margin-bottom: 0px;
+  padding-bottom: 16px;
+}
+
+.placeinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.attractions {
+  width: 300px;
+  margin-right: 40px;
+  font-size: 1.125em;
+}
+
+#destinations {
+  margin: 0px;
+  padding-top: 16px;
+  padding-left: 25px;
+}
+
+#summer2017 {
+  font-size: 3em;
+  padding-top: 13px;
+  margin: 0px;
+}
+
+#bonvoyage {
+  font-size: 2.25em;
+  margin: 0px;
+  padding: 30px;
+}
