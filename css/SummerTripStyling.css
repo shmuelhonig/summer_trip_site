@@ -22,7 +22,7 @@ header {
           justify-content: center;
   text-align: center;
   font-family: verdana;
-  background-image: url("tripimages/chicago_and_river_edited.jpg");
+  background-image: url("../img/chicago_and_river_edited.jpg");
   background-size: contain;
   height: 273px; /* for this image I downloaded a copy and edited it using an image editor. I then adjusted the header height to correspond with the image size */
 }
