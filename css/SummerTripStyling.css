@@ -50,15 +50,26 @@ ul {
   list-style: disc;
 }
 
+.shortlist {
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 0px;
+}
+
+.shortlist-item {
+} /* unnecessary?*/
+
 .longlist {
   margin-bottom: 0px;
   padding-bottom: 16px;
   text-align: center;
   list-style-position: inside;
+  padding-left: 0px;
 }
 
 .longlist-item {
   font-size: 1.125em;
+  margin-bottom: 16px;
 }
 
 /*
