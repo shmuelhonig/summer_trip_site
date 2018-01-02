@@ -42,6 +42,17 @@ ol {
   padding-right: 40px;
 }
 */
+
+.container-fluid {
+  padding: 0;
+}
+
+.col-4 {
+  margin: 0;
+  padding: 0;
+}
+
+
 main {
   background-color: #e0e0e0;
 }
