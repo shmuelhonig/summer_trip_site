@@ -6,23 +6,6 @@ body {
   min-width: 600px;
 }
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  font-family: verdana;
-  background-image: url("../img/chicago_and_river_edited.jpg");
-  background-size: contain;
-  height: 273px;  for this image I downloaded a copy and edited it using an image editor. I then adjusted the header height to correspond with the image size
-}
 
 footer {
   font-family: georgia;
@@ -32,26 +15,51 @@ footer {
 
 
 
-h1 {
-  margin: 0px;
-  padding-bottom: 13px;
-  font-size: 2.25em;
-}
+
 
 ol {
   padding-right: 40px;
 }
 */
 
+header {
+  font-family: verdana;
+}
+
 .container-fluid {
   padding: 0;
 }
 
-.col-4 {
+.header-column {
   margin: 0;
   padding: 0;
 }
 
+#header-text-column {
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  left: 15.2065px;
+  right: 15.2065px;
+  margin: 0px;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#summer2017 {
+  position: absolute;
+  z-index: 2;
+  top: 175px;
+  left: 83.1565px;
+  right: 83.1565px;
+  font-size: 2.5em;
+  margin: 0px;
+}
 
 main {
   background-color: #e0e0e0;
@@ -100,11 +108,7 @@ ul {
   padding-left: 25px;
 }
 
-#summer2017 {
-  font-size: 3em;
-  padding-top: 13px;
-  margin: 0px;
-}
+
 
 #bonvoyage {
   font-size: 2.25em;
