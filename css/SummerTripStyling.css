@@ -7,11 +7,6 @@ body {
 }
 
 
-footer {
-  font-family: georgia;
-  text-align: center;
-  background-color: #e0e0e0;
-}
 
 
 
@@ -75,10 +70,6 @@ main {
 
 .longlist {
   margin-bottom: 0px;
-  padding-bottom: 16px;
-  text-align: center;
-  list-style-position: inside;
-  padding-left: 0px;
 }
 
 .longlist-item {
@@ -96,6 +87,17 @@ main {
   list-style: disc;
 }
 
+footer {
+  font-family: georgia;
+  background-color: #e0e0e0;
+}
+
+#bonvoyage {
+  font-size: 2.25em;
+  margin: 0px;
+  padding: 30px;
+}
+
 /*
 
 #destinations {
@@ -106,9 +108,5 @@ main {
 
 
 
-#bonvoyage {
-  font-size: 2.25em;
-  margin: 0px;
-  padding: 30px;
-}
+
 */
