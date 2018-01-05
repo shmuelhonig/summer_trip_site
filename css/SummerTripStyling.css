@@ -17,9 +17,6 @@ footer {
 
 
 
-ol {
-  padding-right: 40px;
-}
 */
 
 header {
@@ -63,11 +60,9 @@ h1 {
 
 main {
   background-color: #e0e0e0;
+  padding-top: 20px;
 }
 
-ul {
-  list-style: disc;
-}
 
 .shortlist {
   text-align: center;
@@ -98,6 +93,7 @@ ul {
 
 .attractions {
   font-size: 1.125em;
+  list-style: disc;
 }
 
 /*
