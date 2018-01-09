@@ -60,6 +60,7 @@ main {
 
 
 .shortlist {
+  font-size: 1.5em;
   text-align: center;
   list-style-position: inside;
   padding-left: 0px;
@@ -73,7 +74,7 @@ main {
 }
 
 .longlist-item {
-  font-size: 1.125em;
+  font-size: 1.5em;
   margin-bottom: 16px;
 }
 
@@ -83,8 +84,10 @@ main {
 */
 
 .attractions {
-  font-size: 1.125em;
+  font-size: 1.4em;
   list-style: disc;
+  padding-left: 0;
+  padding-bottom: 12px;
 }
 
 footer {
@@ -110,3 +113,34 @@ footer {
 
 
 */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+
+  .shortlist {
+    font-size: 1.25em;
+  }
+
+  .longlist-item {
+    font-size: 1.25em;
+  }
+
+  .attractions {
+    font-size: 1.125em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+
+}
