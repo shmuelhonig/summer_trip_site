@@ -22,11 +22,6 @@ header {
   padding: 0;
 }
 
-.header-column {
-  margin: 0;
-  padding: 0;
-}
-
 #header-text-column {
   position: relative;
   z-index: 1;
