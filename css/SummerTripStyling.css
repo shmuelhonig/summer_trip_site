@@ -77,8 +77,8 @@ footer {
   padding: 30px;
 }
 
-/* Small devices (landscape phones, 576px and up)*/
-@media screen and (min-width: 576px) {
+/* Small devices (landscape phones, 525px and up)*/
+@media screen and (min-width: 525px) {
 
 }
 
