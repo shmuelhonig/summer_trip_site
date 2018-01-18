@@ -60,13 +60,13 @@ main {
 }
 
 .longlist-item {
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
 .attractions {
-  font-size: 0.9em;
+  font-size: 0.75em;
   list-style: disc;
   padding-left: 30px;
   padding-right: 30px;
@@ -96,15 +96,15 @@ footer {
   }
 
   .shortlist {
-    font-size: 1.25em;
+    font-size: 1.125em;
   }
 
   .longlist-item {
-    font-size: 1.5em;
+    font-size: 1.35em;
   }
 
   .attractions {
-    font-size: 1.125em;
+    font-size: 0.9em;
   }
 }
 
@@ -120,11 +120,11 @@ footer {
   }
 
   .shortlist {
-    font-size: 1.25em;
+    font-size: 1.35em;
   }
 
   .longlist-item {
-    font-size: 1.5em;
+    font-size: 1.65em;
   }
 
   .attractions {
@@ -143,6 +143,10 @@ footer {
 
   #summer2017 {
     font-size: 3em;
+  }
+
+  .longlist-item {
+    font-size: 1.9em;
   }
 }
 
@@ -180,5 +184,9 @@ footer {
 
   #summer2017 {
     font-size: 2em;
+  }
+
+  .longlist-item {
+    font-size: 1.5em;
   }
 }
