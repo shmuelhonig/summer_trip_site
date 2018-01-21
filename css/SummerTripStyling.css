@@ -74,6 +74,10 @@ main {
   padding-bottom: 5px;
 }
 
+.figure-caption {
+  font-size: 80%;
+}
+
 footer {
   font-family: verdana;
   background-color: #e0e0e0;
