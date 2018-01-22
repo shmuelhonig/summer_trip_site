@@ -16,43 +16,43 @@ header {
 }
 
 #header-text-column {
-  position: relative;
   z-index: 1;
+  position: relative;
 }
 
 h1 {
-  position: absolute;
   z-index: 2;
+  position: absolute;
   top: 30%;
-  left: 15px;
   right: 15px;
+  left: 15px;
   margin: 0px;
   font-size: 1em;
   font-weight: 600;
 }
 
 #summer2017 {
-  position: absolute;
   z-index: 2;
+  position: absolute;
   top: 45%;
-  left: 40px;
   right: 40px;
-  font-size: 1.5em;
+  left: 40px;
   margin: 0px;
+  font-size: 1.5em;
 }
 
 main {
-  background-color: #e0e0e0;
   padding-top: 20px;
+  background-color: #e0e0e0;
 }
 
 
 .shortlist {
-  font-size: 1em;
-  text-align: center;
-  list-style-position: inside;
-  padding-left: 0px;
   margin-bottom: 32px;
+  padding-left: 0px;
+  font-size: 1em;
+  list-style-position: inside;
+  text-align: center;
 }
 
 .longlist {
@@ -60,18 +60,18 @@ main {
 }
 
 .longlist-item {
-  font-size: 1.25em;
   margin-top: 20px;
   margin-bottom: 0px;
+  font-size: 1.25em;
 }
 
 .attractions {
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-left: 25px;
   font-size: 0.75em;
   list-style: disc;
   list-style-position: inside;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 5px;
 }
 
 .figure-caption {
@@ -79,14 +79,14 @@ main {
 }
 
 footer {
-  font-family: verdana;
   background-color: #e0e0e0;
+  font-family: verdana;
 }
 
 #bonvoyage {
-  font-size: 3em;
   margin: 0px;
   padding: 30px;
+  font-size: 3em;
 }
 
 /* Extra Small devices (410px and up)*/
@@ -133,9 +133,9 @@ footer {
   }
 
   .attractions {
-    font-size: 1.125em;
-    padding-left: 0;
     padding-right: 0;
+    padding-left: 0;
+    font-size: 1.125em;
   }
 }
 
@@ -171,8 +171,8 @@ footer {
   }
 
   .longlist-item {
-    font-size: 1.25em;
     margin-bottom: 12px;
+    font-size: 1.25em;
   }
 
   .attractions {
